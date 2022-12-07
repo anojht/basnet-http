@@ -32,4 +32,11 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The app will run on port 8080, you can change this in main.py.
+**The app will run on port 8080, you can change this in main.py.**
+
+## Thanks and Acknowledgements
+
+- [Original Repo](https://github.com/cyrildiagne/basnet-http) for serving as an excellent base to improve upon
+- [BASNet code](https://github.com/NathanUA/BASNet) for '[_BASNet: Boundary-Aware Salient Object Detection_](http://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html) [code](https://github.com/NathanUA/BASNet)', [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), [Zichen Zhang](https://webdocs.cs.ualberta.ca/~zichen2/), [Chenyang Huang](https://chenyangh.com/), [Chao Gao](https://cgao3.github.io/), [Masood Dehghan](https://sites.google.com/view/masoodd) and [Martin Jagersand](https://webdocs.cs.ualberta.ca/~jag/)
+- RunwayML for the [Photoshop paste code](https://github.com/runwayml/RunwayML-for-Photoshop/blob/master/host/index.jsx)
+- [CoreWeave](https://www.coreweave.com) for hosting the public U^2Net model endpoint on Tesla V100s
