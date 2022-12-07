@@ -1,24 +1,19 @@
 import sys
+
 sys.path.insert(0, 'BASNet')
 
-from skimage import io, transform
+import numpy as np
 import torch
-import torchvision
-from torch.autograd import Variable
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader
-from torchvision import transforms
-
-from torch.utils.data import Dataset, DataLoader
-
-import numpy as np
-from PIL import Image
-
-from data_loader import RescaleT
-from data_loader import ToTensorLab
-
+import torchvision
+from data_loader import RescaleT, ToTensorLab
 from model import BASNet
+from PIL import Image
+from skimage import io, transform
+from torch.autograd import Variable
+from torch.utils.data import DataLoader, Dataset
+from torchvision import transforms
 
 model_dir = './BASNet/saved_models/basnet_bsi/basnet.pth'
 
