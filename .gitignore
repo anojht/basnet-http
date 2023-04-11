@@ -5,3 +5,5 @@ venv
 BASNet
 __pycache__
 *.cypthon-310.pyc
+*.png
+*.jpg
